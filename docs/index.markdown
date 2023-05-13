@@ -14,8 +14,7 @@ layout: home
     <div class="col-1-2">
        <div class="content">
             <blockquote>
-                My greatest passion is programming and engineering. Once I finished high school I would like to do engineering at the university, so I can work in the space field, in particular at ESA. I appreciate embedded programming and data manipulation. My preferred languages are Rust, Python, and Lua. I'm also learning C and C++. I also have a passion for drawing. My main drive is my curiosity.
-                <br/>
+                My greatest passion is programming and engineering. Once I finished high school I would like to do engineering at the university, so I can work in the space field, in particular at ESA. I appreciate embedded programming and data manipulation. My preferred languages are Rust, Python, and Lua. I'm also learning C and C++. I also have a passion for drawing. My main drive is my curiosity. <br/><br/>
                 <i>~ english </i>
             </blockquote>
        </div>

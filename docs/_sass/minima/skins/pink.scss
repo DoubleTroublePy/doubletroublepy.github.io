@@ -2,14 +2,14 @@
 // pastel pink mode
 // ---------
 
-$ppm-base-color: #f4c6f2 !default;
-$ppm-brand-color: #760271 !default;
-$ppm-brand-color-light: lighten($ppm-base-color, 40%) !default;
+$ppm-base-color: #dea8c0 !default;
+$ppm-brand-color: #af157c !default;
+$ppm-brand-color-light: lighten($ppm-brand-color, 25%) !default;
 $ppm-brand-color-dark: darken($ppm-base-color, 20%) !default;
 
 $ppm-site-title-color: $ppm-brand-color-light !default;
 
-$ppm-text-color: darken($ppm-base-color, 40%) !default;
+$ppm-text-color: #4a3582 !default;
 $ppm-background-color: $ppm-base-color !default;
 $ppm-code-background-color: #363636 !default;
 
