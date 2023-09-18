@@ -29,7 +29,7 @@ github_username:  doubletroublepy
 # Build settings
 remote_theme: jekyll/minima
 minima:
-  skin: pink
+  skin: dark
   date_format: "%b %-d, %Y"
 plugins:
   - jekyll-feed
