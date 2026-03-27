@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini nas</title>
+    
+<link rel="stylesheet" href="/css/style.css?h=bed0c23">
+    <link rel="stylesheet" href="/prism.css">
+
+    <meta name="description" content="the setup of my first (real) mini nas">
+    <meta name="keywords" content="nas,mini,tech,homelab,zfs,eng,dtpy,doubletroublepy,italy,engineering,developer">
+    <meta property="og:title" content="mini nas">
+    <meta property="og:description" content="the setup of my first (real) mini nas">
+    <meta property="og:url" content="https://doubletroublepy.github.io/posts/mini_nas/">
+    <meta property="og:image" content="https://doubletroublepy.github.io/img/posts/mini_nas/mini_nas.jpg">
+<meta property="og:image:alt" content="a mini nas with 3HDDs and a rasperri in a messi of cables">    <meta property="og:site_name" content="DoubleTroublePy">
+    <meta name="article:author" content="DoubleTroublePy">
+<meta name="article:published_time" content="2026-03-27T00:00:00.000Z">    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:creator" content="">
+    <meta name="theme-color" content="#eca9cb">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <link rel="alternate" type="application/rss+xml" href="/feed.xml">
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="95cf176b-1633-4298-92db-108ea4e1ddf0"></script>      
+  </head>
+  <body>
+    <header id="site_header">
+      <h1>dtpy <sub>blog</sub></h1>
+<nav>
+        <span><a href="/">home</a></span>
+            <span>|</span>
+        <span><a href="/posts/">blog</a></span>
+            <span>|</span>
+        <span><a href="/stories/">stories</a></span>
+            <span>|</span>
+        <span><a href="/citations/">citations</a></span>
+            <span>|</span>
+        <span><a href="/contact/">contact</a></span>
+</nav>    </header>
+    <div id="content">
+    <article>
+        <header class="article_header">
+            <figure id="feature">
+                <div>
+                    <img src="/img/posts/mini_nas/mini_nas.jpg" alt="a mini nas with 3HDDs and a rasperri in a messi of cables">
+                </div>
+            </figure>
+            <div class="byline">
+                <time datetime="2026-03-27T00:00:00.000Z">27 Mar, 2026</time>
+                <span class="middot"></span>
+                <span class="readtime">1 minute to read</span>
+                <span class="middot"></span>
+                <span>by <span class="author by" id="author">DoubleTroublePy</span></span>
+                    <span class="middot"></span>
+                    <span>in 
+                            <span class="tag"><a href="/posts/tagged/nas/">nas</a></span>,                             <span class="tag"><a href="/posts/tagged/mini/">mini</a></span>,                             <span class="tag"><a href="/posts/tagged/tech/">tech</a></span>,                             <span class="tag"><a href="/posts/tagged/homelab/">homelab</a></span>,                             <span class="tag"><a href="/posts/tagged/zfs/">zfs</a></span>,                             <span class="tag"><a href="/posts/tagged/eng/">eng</a></span>                    </span>
+            </div>
+            <h1>mini nas</h1>
+            <strong id="lead">the setup of my first (real) mini nas</strong>
+        </header>
+        <h2 id="premise%3A" tabindex="-1"><em>premise:</em></h2>
+<p>Im am not english native and i dont have a proof reader so, sorry for any mistakes.
+Also this is a blog where i yap, this IS NOT, I ANY WAY a tutorial I AM NOT RESPONSABLE for related incidents.</p>
+<hr>
+<h2 id="the-problem" tabindex="-1">the problem</h2>
+<p>As of now the mini nas solves to probles, alleviate my 4TB main HDD and create a
+way for my mother for:</p>
+<ol>
+<li>still have a sort of cloud migrating from Mac to Linux ( congratolations to her ).</li>
+<li>have a location where to make backups of her files</li>
+</ol>
+<h2 id="the-how" tabindex="-1">the how</h2>
+<p>My mother posseses two 2TB HDDs and a friend gifted us a bunch of usb HDDs. This
+plus a raspeberri 3, i had laying around made the perfect opportunity.
+Also both i and my mom have FTTH gigabit connections. So we can transfer data
+pretty quicly. The main bottleneck are the usb interfaces.</p>
+<h2 id="the-process" tabindex="-1">the process</h2>
+<p>first i opened two of the two enclosures to swtch the original 2TB and 3TB with
+the newer 2TB WDredNas HDDs of my mother. Form my data i formatte another without
+changing anithing.
+Aftrer switching arounthe data on the 2HDDs on my HDD i formatted them with a
+a mirrored zsa pool.</p>
+<hr>
+<h1>!!! WORK IN PROGRESS !!!</h1>
+<p>here i dont have a good keyboard so i cannot write confortably, but i will uptate
+this article. Also as of now there is more to do.</p>
+<hr>
+
+    </article></div>
+<footer>
+    <div class="footer-img" style="height: 0">
+        <!--
+          <img style="border: black .1em solid;" src="/img/marcille.jpg" alt="me">
+        -->
+    </div>
+
+    <div>
+
+            <span><a href="https://github.com/doubletroublepy" rel="noreferrer" target="_blank">github</a></span>
+                <span>|</span>
+            <span><a href="https://t.me/dtpy_index" rel="noreferrer" target="_blank">dtpy telegram channels</a></span>
+                <span>|</span>
+            <span><a href="https://t.me/dtpy_rats" rel="noreferrer" target="_blank">rats channel</a></span>
+    </div>
+    <div>
+        <p>credits: site base by <a rel="noreferrer" target="_blank" href="https://maia.crimew.gay">maia</a></p>
+    </div>
+    <div class="badges">
+<a rel="noreferrer" href="https://badge.les.bi/" target="_blank"><img src="/badges/trans_bi.png" alt="trans-bi" title="yeeees"></a><a rel="noreferrer" href="https://cyber.dabamos.de/88x31" target="_blank"><img src="/badges/88x31.gif" alt="88x31" title="baaaadges"></a><a rel="noreferrer" href="https://aerorust.org/" target="_blank"><img src="/badges/aerorust.png" alt="space crab" title="rust in space"></a><a rel="noreferrer" href="https://www.rust-lang.org/" target="_blank"><img src="/badges/rust.png" alt="rust gear" title="rust is a good tool"></a><a rel="noreferrer" href="https://www.haskell.org/" target="_blank"><img src="/badges/haskell.png" alt="haskell" title="haskell is a haskell"></a><img src="/badges/righttorepair.png" alt="right to repair" title="we have the right to repair"><img src="/badges/spaceexploration.png" alt="space exploration" title="explore the space"><img src="/badges/adastraperaspera.png" alt="ad astra per aspera" title="Through adversity to the stars"><img src="/badges/dysonswarm.png" alt="dyson swarm" title="we want a dyson swarm now"><a href="javascript:alert('what did i tell you??')" target="_blank"><img src="/badges/noclick.gif" alt="don't click here" title="don't do it"></a><img src="/badges/queer.png" alt="queer pride" title="im queeeer as fuck"><img src="/badges/transrights.png" alt="trans rights" title="trans rights are human rights"><img src="/badges/codedwithpride.gif" alt="coded with pride" title="code with pride"><a rel="noreferrer" href="https://www.linux.it/" target="_blank"><img src="/badges/nclinux.gif" alt="linux now" title="linux is the best"></a><img src="/badges/antinazi.gif" alt="antinazi" title="&quot;meglio porco che fascista&quot;"><img src="/badges/piracy.gif" alt="piracy now" title="piracy is swag and you should do it">    </div>
+</footer>
+  </body>
+</html>

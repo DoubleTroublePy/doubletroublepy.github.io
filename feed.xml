@@ -4,7 +4,7 @@
   <subtitle>the dtpy blog</subtitle>
   <link href="https://doubletroublepy.github.io/feed.xml" rel="self"/>
   <link href="https://doubletroublepy.github.io"/>
-  <updated>2026-03-02T15:58:17Z</updated>
+  <updated>2026-03-27T13:52:59Z</updated>
   <id>https://doubletroublepy.github.io/</id>
   <author>
     <name>doubletroublepy</name>
@@ -12,9 +12,43 @@
   </author>
   <entry>
     <title>tmp post</title>
-<summary>i dont know why but without at least one post this page is not generated</summary><link href="https://doubletroublepy.github.io/posts/tmp/"/>    <updated>2026-03-02T15:58:17Z</updated>
+<summary>i dont know why but without at least one post this page is not generated</summary><link href="https://doubletroublepy.github.io/posts/tmp/"/>    <updated>2026-03-27T13:52:59Z</updated>
     <id>https://doubletroublepy.github.io/posts/tmp/</id>
     <content type="html"><![CDATA[]]></content>
             
+  </entry>
+  <entry>
+    <title>mini nas</title>
+<summary>the setup of my first (real) mini nas</summary><link href="https://doubletroublepy.github.io/posts/mini_nas/"/>    <updated>2026-03-27T00:00:00Z</updated>
+    <id>https://doubletroublepy.github.io/posts/mini_nas/</id>
+    <content type="html"><![CDATA[<h2 id="premise%3A" tabindex="-1"><em>premise:</em></h2>
+<p>Im am not english native and i dont have a proof reader so, sorry for any mistakes.
+Also this is a blog where i yap, this IS NOT, I ANY WAY a tutorial I AM NOT RESPONSABLE for related incidents.</p>
+<hr />
+<h2 id="the-problem" tabindex="-1">the problem</h2>
+<p>As of now the mini nas solves to probles, alleviate my 4TB main HDD and create a
+way for my mother for:</p>
+<ol>
+<li>still have a sort of cloud migrating from Mac to Linux ( congratolations to her ).</li>
+<li>have a location where to make backups of her files</li>
+</ol>
+<h2 id="the-how" tabindex="-1">the how</h2>
+<p>My mother posseses two 2TB HDDs and a friend gifted us a bunch of usb HDDs. This
+plus a raspeberri 3, i had laying around made the perfect opportunity.
+Also both i and my mom have FTTH gigabit connections. So we can transfer data
+pretty quicly. The main bottleneck are the usb interfaces.</p>
+<h2 id="the-process" tabindex="-1">the process</h2>
+<p>first i opened two of the two enclosures to swtch the original 2TB and 3TB with
+the newer 2TB WDredNas HDDs of my mother. Form my data i formatte another without
+changing anithing.
+Aftrer switching arounthe data on the 2HDDs on my HDD i formatted them with a
+a mirrored zsa pool.</p>
+<hr />
+<h1>!!! WORK IN PROGRESS !!!</h1>
+<p>here i dont have a good keyboard so i cannot write confortably, but i will uptate
+this article. Also as of now there is more to do.</p>
+<hr />
+]]></content>
+<media:content url="https://doubletroublepy.github.io/img/posts/mini_nas/mini_nas.jpg" type="image/jpeg" expression="full"></media:content>            
   </entry>
 </feed>
