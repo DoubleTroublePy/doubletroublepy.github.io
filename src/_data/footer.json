@@ -3,6 +3,14 @@
     {
       "name": "github",
       "link": "https://github.com/doubletroublepy"
+    },
+    {
+      "name": "dtpy telegram channels",
+      "link": "https://t.me/dtpy_index"
+    },
+    {
+      "name": "rats channel",
+      "link": "https://t.me/dtpy_rats"
     }
   ],
   "badges": [
@@ -87,7 +95,7 @@
     {
       "badge": "antinazi.gif",
       "alt": "antinazi",
-      "title": "\"meglio porco che nazista\""
+      "title": "\"meglio porco che fascista\""
     },
     {
       "badge": "piracy.gif",
