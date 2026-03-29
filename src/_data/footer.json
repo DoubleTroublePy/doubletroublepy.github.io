@@ -15,6 +15,12 @@
   ],
   "badges": [
     {
+      "badge": "powered_by_estrogen.gif",
+      "title": "yeeees",
+      "alt": "trans-bi",
+      "link": "https://badge.les.bi/"
+    },
+    {
       "badge": "trans_bi.png",
       "title": "yeeees",
       "alt": "trans-bi",
@@ -25,6 +31,18 @@
       "title": "baaaadges",
       "alt": "88x31",
       "link": "https://cyber.dabamos.de/88x31"
+    },
+    {
+      "badge": "datakrash.png",
+      "title": "baaaadges",
+      "alt": "datakrash",
+      "link": "https://88x31.datakra.sh/"
+    },
+    {
+      "badge": "homelab.gif",
+      "title": "homelab",
+      "alt": "home lab",
+      "link": "https://www.reddit.com/r/homelab/"
     },
     {
       "badge": "aerorust.png",
