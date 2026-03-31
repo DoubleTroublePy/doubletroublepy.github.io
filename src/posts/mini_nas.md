@@ -47,16 +47,22 @@ aftrer switching around the data on the 2HDDs on my HDD i formatted them with a 
 here i don't have a good keyboard so i cannot write comfortably, but i will uptate
 this article. Also as of now there is more to do.
 
-edit: 2026-03-30
-I figured out how to set colemack on the shitty keyboard so writing is less painfull.
-
 ---
+
+<a>============ </a>
+</br>
+edit: 2026-03-30 
+</br>
+<a>============</a>
+
+I figured out how to set colemack on the shitty keyboard so writing is less painfull.
 
 ## so, unexpected things from life
 
 my grandpa gifted me a 2 bay nas. So the raspberry would be turned to a smart tv.
 The new nas wold also manage my support hdd.
 But for now i installed jellyfin on the pi and modified samba settings to make it 
+
 compatible with ios. When the arrive i will swap all to it if i can flash a decent
 os on it.
 
