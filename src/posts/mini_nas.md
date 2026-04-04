@@ -66,3 +66,27 @@ But for now i installed jellyfin on the pi and modified samba settings to make i
 compatible with ios. When the arrive i will swap all to it if i can flash a decent
 os on it.
 
+---
+
+<a>============ </a>
+</br>
+edit: 2026-04-04 
+</br>
+<a>============</a>
+
+_idk if this is the right way to write a blog or if i should add a new post for
+every update but for now i will write like this_
+
+so, anyways i started installing some services on my mom nas. 
+
+The first one was <a href="https://stashapp.cc/">stash</a> with podman and then 
+i tried jellyfin but the raspberry 3 couldn't sustain the load so i made the 
+decision of renouncing to it. 
+
+After that i tried unsuccessfully to install paperless-ngx on podman but i gave up. 
+After some digging around i found <a href="https://papra.app/en/">papra</a> an
+alternative to paperless. But after trying unsuccessfully to install it via podman i
+resigned myself to use docker as i didn't want to have the double headache of using
+podman on arm.
+
+
