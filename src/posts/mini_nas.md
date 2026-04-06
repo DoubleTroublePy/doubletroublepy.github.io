@@ -104,5 +104,5 @@ fuck docker it as tankded the raspberry pi processor. Once it was deactivated th
 berry returned to normal operations. So idk no papra i guss? My mother survived
 until now witout so i can continue so.
 
-
+![updated mini nas](/img/posts/mini_nas/mini_nas_update.jpg)
 
