@@ -89,4 +89,20 @@ alternative to paperless. But after trying unsuccessfully to install it via podm
 resigned myself to use docker as i didn't want to have the double headache of using
 podman on arm.
 
+---
+
+<a>============ </a>
+</br>
+edit: 2026-04-06 
+</br>
+<a>============</a>
+
+fuck docker it as tankded the raspberry pi processor. Once it was deactivated the 
+berry returned to normal operations. So idk no papra i guss? My mother survived
+until now witout so i can continue so
+fuck docker it as tankded the raspberry pi processor. Once it was deactivated the 
+berry returned to normal operations. So idk no papra i guss? My mother survived
+until now witout so i can continue so.
+
+
 
