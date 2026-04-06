@@ -69,6 +69,18 @@ After some digging around i found <a href="https://papra.app/en/">papra</a> an
 alternative to paperless. But after trying unsuccessfully to install it via podman i
 resigned myself to use docker as i didn't want to have the double headache of using
 podman on arm.</p>
+<hr />
+<p><a>============ </a>
+<br />
+edit: 2026-04-06
+<br />
+<a>============</a></p>
+<p>fuck docker it as tankded the raspberry pi processor. Once it was deactivated the
+berry returned to normal operations. So idk no papra i guss? My mother survived
+until now witout so i can continue so
+fuck docker it as tankded the raspberry pi processor. Once it was deactivated the
+berry returned to normal operations. So idk no papra i guss? My mother survived
+until now witout so i can continue so.</p>
 ]]></content>
 <media:content url="https://doubletroublepy.github.io/img/posts/mini_nas/mini_nas.jpg" type="image/jpeg" expression="full"></media:content>            
   </entry>
