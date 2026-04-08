@@ -106,3 +106,17 @@ until now witout so i can continue so.
 
 ![updated mini nas](/img/posts/mini_nas/mini_nas_update.jpg)
 
+---
+
+<a>============ </a>
+</br>
+edit: 2026-04-08
+</br>
+<a>============</a>
+
+## layout update
+
+![updated mini nas](/img/posts/mini_nas/scheme.png)
+
+![updated mini nas](/img/posts/mini_nas/mini_nas_update_int.jpg)
+![updated mini nas](/img/posts/mini_nas/mini_nas_update_ext.jpg)
