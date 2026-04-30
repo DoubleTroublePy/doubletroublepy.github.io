@@ -21,7 +21,6 @@ subhead: blog
                     <small class="updated">(updated <time datetime="{{changed_date | date_to_datetime }}">{{ changed_date | date_formatted }}</time>)</small>
                 {% endif %}
                 <span class="middot"></span>
-                <span class="readtime">{{ content | timeToRead }} to read</span>
                 <span class="middot"></span>
                 <span>by <span class="author by" id="author">{{ site.name }}</span>{% if coauthor %} and <a class="author by" id="author" href="{{ coauthor.link }}">{{ coauthor.name }}</a>{% endif %}</span>
                 {% if tags %}
@@ -63,7 +62,6 @@ subhead: blog
                     <small class="updated">(updated <time datetime="{{ rel.document.changed_date | date_to_datetime }}">{{ rel.document.changed_date | date_formatted }}</time>)</small>
                 {% endif %}
                 <span class="middot"></span>
-                <span class="readtime">{{ rel.document.content | timeToRead }} to read</span>
                 <span class="middot"></span>
                 <span>by <span class="author by" id="author">{{ site.name }}</span></span>
                 {% if rel.document.tags %}

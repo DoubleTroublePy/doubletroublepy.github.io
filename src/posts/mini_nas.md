@@ -12,11 +12,10 @@ tags:
     - zfs
     - eng
 ---
-
 ## *premise:*
 
 Im am not english native and i dont have a proof reader so, sorry for any mistakes.
-Also this is a blog where i yap, this IS NOT, I ANY WAY a tutorial I AM NOT RESPONSABLE for related incidents.
+Also this is a blog where i yap, this IS NOT, IN ANY WAY a tutorial I AM NOT RESPONSABLE for related incidents.
 
 ---
 
