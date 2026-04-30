@@ -2,7 +2,6 @@ const path = require("node:path");
 
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
-const timeToRead = require('eleventy-plugin-time-to-read');
 const safeLinks = require('@sardine/eleventy-plugin-external-links');
 const related = require("eleventy-plugin-related");
 const markdownIt = require("markdown-it");
