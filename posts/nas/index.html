@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tmp post</title>
+    <title>nas</title>
     
-<link rel="stylesheet" href="/css/style.css?h=59172f0">
+<link rel="stylesheet" href="/css/style.css?h=71775e0">
     <link rel="stylesheet" href="/prism.css">
 
-    <meta name="description" content="i dont know why but without at least one post this page is not generated">
-    <meta name="keywords" content=",dtpy,doubletroublepy,italy,engineering,developer">
-    <meta property="og:title" content="tmp post">
-    <meta property="og:description" content="i dont know why but without at least one post this page is not generated">
-    <meta property="og:url" content="https://doubletroublepy.github.io/stories/tmp/">
-    <meta property="og:image" content="https://doubletroublepy.github.io/img/cover.jpg">
-    <meta property="og:site_name" content="DoubleTroublePy">
+    <meta name="description" content="the setup of my main nas">
+    <meta name="keywords" content="nas,tech,homelab,zfs,eng,dtpy,doubletroublepy,italy,engineering,developer">
+    <meta property="og:title" content="nas">
+    <meta property="og:description" content="the setup of my main nas">
+    <meta property="og:url" content="https://doubletroublepy.github.io/posts/nas/">
+    <meta property="og:image" content="https://doubletroublepy.github.io/img/posts/nas/new_case.jpg">
+<meta property="og:image:alt" content="pc case in a pink illuminated rack with two visible hdds">    <meta property="og:site_name" content="DoubleTroublePy">
     <meta name="article:author" content="DoubleTroublePy">
-<meta name="article:published_time" content="2026-04-08T08:15:48.103Z">    <meta name="twitter:card" content="summary_large_image">
+<meta name="article:published_time" content="2026-04-30T00:00:00.000Z">    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="">
     <meta name="twitter:creator" content="">
     <meta name="theme-color" content="#eca9cb">
@@ -36,8 +36,6 @@
             <span>|</span>
         <span><a href="/posts/">blog</a></span>
             <span>|</span>
-        <span><a href="/stories/">stories</a></span>
-            <span>|</span>
         <span><a href="/citations/">citations</a></span>
             <span>|</span>
         <span><a href="/contact/">contact</a></span>
@@ -45,21 +43,64 @@
     <div id="content">
     <article>
         <header class="article_header">
+            <figure id="feature">
+                <div>
+                    <img src="/img/posts/nas/new_case.jpg" alt="pc case in a pink illuminated rack with two visible hdds">
+                </div>
+            </figure>
             <div class="byline">
-                <time datetime=""></time>
+                <time datetime="2026-04-30T00:00:00.000Z">30 Apr, 2026</time>
                 <span class="middot"></span>
-                <span class="readtime">1 minute to read</span>
                 <span class="middot"></span>
                 <span>by <span class="author by" id="author">DoubleTroublePy</span></span>
                     <span class="middot"></span>
                     <span>in 
-                    </span>
+                            <span class="tag"><a href="/posts/tagged/nas/">nas</a></span>,                             <span class="tag"><a href="/posts/tagged/tech/">tech</a></span>,                             <span class="tag"><a href="/posts/tagged/homelab/">homelab</a></span>,                             <span class="tag"><a href="/posts/tagged/zfs/">zfs</a></span>,                             <span class="tag"><a href="/posts/tagged/eng/">eng</a></span>                    </span>
             </div>
-            <h1>tmp post</h1>
-            <strong id="lead">i dont know why but without at least one post this page is not generated</strong>
+            <h1>nas</h1>
+            <strong id="lead">the setup of my main nas</strong>
         </header>
-        
-    </article></div>
+        <h2 id="premise%3A" tabindex="-1"><em>premise:</em></h2>
+<p>I'm am not English native and i don't have a proof reader so, sorry for any mistakes.
+Also this is a blog where i yap, this IS NOT, I ANY WAY a tutorial IN AM NOT RESPONSIBLE for related incidents.</p>
+<hr>
+<h2 id="story%3A" tabindex="-1"><em>story</em>:</h2>
+<p>I started whit a 4TB HDD in my main pc, even before the nas i build in the previous
+post, i decided after building the mini nas, that i wanted it bigger and dedicated.
+Also the 4TB was filling up, and i cannot guarantee the uptime on my personal pc,
+also, i have arch on my machine but i believe that the server for servers is Nix.
+I wanted to buy another pc but i don't have money, so i decided to not have a pc
+anymore and only a laptop.
+I changed the case in a smaller one that fits in my rack.</p>
+<h3 id="old-case%3A" tabindex="-1">old case:</h3>
+<p><img src="/img/posts/nas/old_case.jpg" alt="old case"></p>
+<h3 id="new-one%3A" tabindex="-1">new one:</h3>
+<p><img src="/img/posts/nas/new_case.jpg" alt="new case"></p>
+<p>I doing so i broke my 4TB hdd (because i am a dumbass), and right now i'm filling two
+2TB HDD in mirror so 2TB total. I decided to use zsf and nixos (my pool name is mars),
+i also set up sanoid for regular snapshots. I still don't have a back up but is
+better than before.</p>
+<p>Now I'm waiting for the money to buy a proper rack case and an hot swappable caddy
+tray.</p>
+
+        <div class="related">
+        <h3>related posts</h3>
+        <ul>
+        <li class="list-entry">
+            <!-- rank: 0.9090909090909091 -->
+            <a href="/posts/mini_nas/"><h4>mini nas</h4></a>
+            <div class="byline">
+                <time datetime="2026-03-27T00:00:00.000Z">27 Mar, 2026</time>
+                <span class="middot"></span>
+                <span class="middot"></span>
+                <span>by <span class="author by" id="author">DoubleTroublePy</span></span>
+                    <span class="middot"></span>
+                    <span>in 
+                        <span class="tag"><a href="/posts/tagged/nas/">nas</a></span>,                         <span class="tag"><a href="/posts/tagged/mini/">mini</a></span>,                         <span class="tag"><a href="/posts/tagged/tech/">tech</a></span>,                         <span class="tag"><a href="/posts/tagged/homelab/">homelab</a></span>,                         <span class="tag"><a href="/posts/tagged/zfs/">zfs</a></span>,                         <span class="tag"><a href="/posts/tagged/eng/">eng</a></span>                    </span>
+            </div>
+            <span class="lead"><strong>the setup of my first (real) mini nas</strong></span>
+        </li>
+</ul></div>    </article></div>
 <footer>
     <div class="footer-img" style="height: 0">
         <!--
