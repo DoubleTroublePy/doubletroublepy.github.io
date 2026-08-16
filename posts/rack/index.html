@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mini nas</title>
+    <title>rack</title>
     
 <link rel="stylesheet" href="/css/style.css?h=ff7e617">
     <link rel="stylesheet" href="/prism.css">
 
-    <meta name="description" content="the setup of my first (real) mini nas">
-    <meta name="keywords" content="nas,mini,tech,homelab,zfs,eng,dtpy,doubletroublepy,italy,engineering,developer">
-    <meta property="og:title" content="mini nas">
-    <meta property="og:description" content="the setup of my first (real) mini nas">
-    <meta property="og:url" content="https://doubletroublepy.github.io/posts/mini_nas/">
-    <meta property="og:image" content="https://doubletroublepy.github.io/img/posts/mini_nas/mini_nas.jpg">
-<meta property="og:image:alt" content="a mini nas with 3HDDs and a rasperri in a messi of cables">    <meta property="og:site_name" content="DoubleTroublePy">
+    <meta name="description" content="my rack setup">
+    <meta name="keywords" content="nas,tech,homelab,zfs,rack,eng,dtpy,doubletroublepy,italy,engineering,developer">
+    <meta property="og:title" content="rack">
+    <meta property="og:description" content="my rack setup">
+    <meta property="og:url" content="https://doubletroublepy.github.io/posts/rack/">
+    <meta property="og:image" content="https://doubletroublepy.github.io/img/posts/rack/rack.jpg">
+<meta property="og:image:alt" content="pc case in a pink illuminated rack with two visible hdds">    <meta property="og:site_name" content="DoubleTroublePy">
     <meta name="article:author" content="DoubleTroublePy">
-<meta name="article:published_time" content="2026-03-27T00:00:00.000Z">    <meta name="twitter:card" content="summary_large_image">
+<meta name="article:published_time" content="2026-08-16T00:00:00.000Z">    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="">
     <meta name="twitter:creator" content="">
     <meta name="theme-color" content="#eca9cb">
@@ -45,105 +45,81 @@
         <header class="article_header">
             <figure id="feature">
                 <div>
-                    <img src="/img/posts/mini_nas/mini_nas.jpg" alt="a mini nas with 3HDDs and a rasperri in a messi of cables">
+                    <img src="/img/posts/rack/rack.jpg" alt="pc case in a pink illuminated rack with two visible hdds">
                 </div>
             </figure>
             <div class="byline">
-                <time datetime="2026-03-27T00:00:00.000Z">27 Mar, 2026</time>
+                <time datetime="2026-08-16T00:00:00.000Z">16 Aug, 2026</time>
                 <span class="middot"></span>
                 <span class="middot"></span>
                 <span>by <span class="author by" id="author">DoubleTroublePy</span></span>
                     <span class="middot"></span>
                     <span>in 
-                            <span class="tag"><a href="/posts/tagged/nas/">nas</a></span>,                             <span class="tag"><a href="/posts/tagged/mini/">mini</a></span>,                             <span class="tag"><a href="/posts/tagged/tech/">tech</a></span>,                             <span class="tag"><a href="/posts/tagged/homelab/">homelab</a></span>,                             <span class="tag"><a href="/posts/tagged/zfs/">zfs</a></span>,                             <span class="tag"><a href="/posts/tagged/eng/">eng</a></span>                    </span>
+                            <span class="tag"><a href="/posts/tagged/nas/">nas</a></span>,                             <span class="tag"><a href="/posts/tagged/tech/">tech</a></span>,                             <span class="tag"><a href="/posts/tagged/homelab/">homelab</a></span>,                             <span class="tag"><a href="/posts/tagged/zfs/">zfs</a></span>,                             <span class="tag"><a href="/posts/tagged/rack/">rack</a></span>,                             <span class="tag"><a href="/posts/tagged/eng/">eng</a></span>                    </span>
             </div>
-            <h1>mini nas</h1>
-            <strong id="lead">the setup of my first (real) mini nas</strong>
+            <h1>rack</h1>
+            <strong id="lead">my rack setup</strong>
         </header>
         <h2 id="premise%3A" tabindex="-1"><em>premise:</em></h2>
-<p>Im am not english native and i dont have a proof reader so, sorry for any mistakes.
-Also this is a blog where i yap, this IS NOT, IN ANY WAY a tutorial I AM NOT RESPONSABLE for related incidents.</p>
+<p>I'm am not English native and i don't have a proof reader so, sorry for any mistakes.
+Also this is a blog where i yap, this IS NOT, I ANY WAY a tutorial IN AM NOT RESPONSIBLE for related incidents.</p>
 <hr>
-<h2 id="the-problem" tabindex="-1">the problem</h2>
-<p>As of now the mini nas solves to probles, alleviate my 4TB main HDD and create a
-way for my mother for:</p>
-<ol>
-<li>still have a sort of cloud migrating from Mac to Linux ( congratulations to her ).</li>
-<li>have a location where to make backups of her files</li>
-</ol>
-<h2 id="the-how" tabindex="-1">the how</h2>
-<p>My mother posses two 2TB HDDs and a friend gifted us a bunch of usb HDDs. This
-plus a raspberri 3, i had laying around made the perfect opportunity.
-Also both i and my mom have FTTH gigabit connections. So we can transfer data
-pretty quickly. The main bottleneck are the usb interfaces.</p>
-<h2 id="the-process" tabindex="-1">the process</h2>
-<p>first i opened two of the two enclosures to swtch the original 2TB and 3TB with
-the newer 2TB WDredNas HDDs of my mother. Form my data i formatted another without
-changing anything.
-aftrer switching around the data on the 2HDDs on my HDD i formatted them with a mirrored zsa pool.</p>
+<h2 id="story%3A" tabindex="-1"><em>story</em>:</h2>
+<p>I update the nas build some time ago but, i procastinated an update post until now.
+So now the nas has changed 2 times mobo and i have a server case and rack.</p>
+<p>The rack is build like this:</p>
+<pre><code>[      patch panel      ]
+[        switch         ]
+[ Futro S520 | mini NAS ]
+[                       ]
+[          NAS          ]
+[                       ]
+</code></pre>
+<h2 id="panel-panel" tabindex="-1">panel panel</h2>
+<p>Standard patch panel, nothing to see here</p>
+<h2 id="switch" tabindex="-1">switch</h2>
+<p>A cheap mercusys switch (MS116GS) which will be substituted shortly by the Tenda
+TEG5312F managed switch.</p>
+<h2 id="futro-s520" tabindex="-1">Futro S520</h2>
+<p>A cheap mini pc, not very powerfull, but it can be a work as a mini router, given
+i had to use <a rel="noreferrer" target="_blank" href="https://openwrt.org/">openwrt</a> and not <a rel="noreferrer" target="_blank" href="https://opnsense.org/">opnsense</a>
+as i wanted. Is running <a rel="noreferrer" target="_blank" href="https://www.proxmox.com/en/">proxmox</a>, on witch i have
+the following machines:</p>
+<ul>
+<li><a rel="noreferrer" target="_blank" href="https://adguard.com/en/adguard-home/overview.html">adguard</a></li>
+<li><a rel="noreferrer" target="_blank" href="https://www.home-assistant.io">haos</a> (smart home os)</li>
+<li><a rel="noreferrer" target="_blank" href="https://openwrt.org">openwrt</a></li>
+</ul>
+<h3 id="openwrt" tabindex="-1"><a rel="noreferrer" target="_blank" href="https://openwrt.org">openwrt</a></h3>
+<p>The S520 as only 1 ethernet port so i must use a router-on-a-stick configuration:
+I have two virtual interfaces with different vlans and with a managed switch i route
+the wan traffic on one interface and the lan on the other, is not optimal, but it works.</p>
+<h2 id="mini-nas" tabindex="-1"><a rel="noreferrer" target="_blank" href="https://doubletroublepy.github.io/posts/mini_nas/">mini NAS</a></h2>
+<p>Updates:</p>
+<ul>
+<li>gigabit usb rj45 dongle</li>
+</ul>
+<h2 id="nas" tabindex="-1"><a rel="noreferrer" target="_blank" href="https://doubletroublepy.github.io/posts/nas/">NAS</a></h2>
+<p>I finally changed the case with a proper rack one, and added a caddy tray.
+Luck wants that my grandfather, witch is a hobbyist photographer was retiring two
+8TB hdds. He gifted me this hdds, so now i have the same configuration but with
+16TB raw and 8TB usable. As right now yesterday a power outage corrupted one of the
+drives, but luckily only data was damaged not the drive itself. I'm currently in the
+process of resilvering the drive, 12h of agony.</p>
 <hr>
-<h3 id="!!!-work-in-progress-!!!" tabindex="-1"><s>!!! WORK IN PROGRESS !!!</s></h3>
-<p>here i don't have a good keyboard so i cannot write comfortably, but i will uptate
-this article. Also as of now there is more to do.</p>
-<hr>
-<p><a>============ </a>
-<br>
-edit: 2026-03-30
-<br>
-<a>============</a></p>
-<p>I figured out how to set colemack on the shitty keyboard so writing is less painfull.</p>
-<h2 id="so%2C-unexpected-things-from-life" tabindex="-1">so, unexpected things from life</h2>
-<p>my grandpa gifted me a 2 bay nas. So the raspberry would be turned to a smart tv.
-The new nas wold also manage my support hdd.
-But for now i installed jellyfin on the pi and modified samba settings to make it</p>
-<p>compatible with ios. When the arrive i will swap all to it if i can flash a decent
-os on it.</p>
-<hr>
-<p><a>============ </a>
-<br>
-edit: 2026-04-04
-<br>
-<a>============</a></p>
-<p><em>idk if this is the right way to write a blog or if i should add a new post for
-every update but for now i will write like this</em></p>
-<p>so, anyways i started installing some services on my mom nas.</p>
-<p>The first one was <a rel="noreferrer" target="_blank" href="https://stashapp.cc/">stash</a> with podman and then
-i tried jellyfin but the raspberry 3 couldn't sustain the load so i made the
-decision of renouncing to it.</p>
-<p>After that i tried unsuccessfully to install paperless-ngx on podman but i gave up.
-After some digging around i found <a rel="noreferrer" target="_blank" href="https://papra.app/en/">papra</a> an
-alternative to paperless. But after trying unsuccessfully to install it via podman i
-resigned myself to use docker as i didn't want to have the double headache of using
-podman on arm.</p>
-<hr>
-<p><a>============ </a>
-<br>
-edit: 2026-04-06
-<br>
-<a>============</a></p>
-<p>fuck docker it as tankded the raspberry pi processor. Once it was deactivated the
-berry returned to normal operations. So idk no papra i guss? My mother survived
-until now witout so i can continue so
-fuck docker it as tankded the raspberry pi processor. Once it was deactivated the
-berry returned to normal operations. So idk no papra i guss? My mother survived
-until now witout so i can continue so.</p>
-<p><img src="/img/posts/mini_nas/mini_nas_update.jpg" alt="updated mini nas"></p>
-<hr>
-<p><a>============ </a>
-<br>
-edit: 2026-04-08
-<br>
-<a>============</a></p>
-<h2 id="layout-update" tabindex="-1">layout update</h2>
-<p><img src="/img/posts/mini_nas/scheme.png" alt="updated mini nas"></p>
-<p><img src="/img/posts/mini_nas/mini_nas_update_int.jpg" alt="updated mini nas">
-<img src="/img/posts/mini_nas/mini_nas_update_ext.jpg" alt="updated mini nas"></p>
+<h1>The rack</h1>
+<p>The rack is not a good one, i bought a package of rackstuds but the rack holes are
+under dimensioned, which is fine for cagenuts but not for rack studs.
+Is not a big problem as is was cheap 50 euros and i have another one, 90 euros.
+I'm not using the other one as is currently in another city where i plan to return.
+I will probably swap this for a minirack for my mother and use the better one for
+myself.</p>
 
         <div class="related">
         <h3>related posts</h3>
         <ul>
         <li class="list-entry">
-            <!-- rank: 1.324810927905264 -->
+            <!-- rank: 0.9090909090909091 -->
             <a href="/posts/nas/"><h4>nas</h4></a>
             <div class="byline">
                 <time datetime="2026-04-30T00:00:00.000Z">30 Apr, 2026</time>
@@ -158,17 +134,17 @@ edit: 2026-04-08
         </li>
         <li class="list-entry">
             <!-- rank: 0.8333333333333334 -->
-            <a href="/posts/rack/"><h4>rack</h4></a>
+            <a href="/posts/mini_nas/"><h4>mini nas</h4></a>
             <div class="byline">
-                <time datetime="2026-08-16T00:00:00.000Z">16 Aug, 2026</time>
+                <time datetime="2026-03-27T00:00:00.000Z">27 Mar, 2026</time>
                 <span class="middot"></span>
                 <span class="middot"></span>
                 <span>by <span class="author by" id="author">DoubleTroublePy</span></span>
                     <span class="middot"></span>
                     <span>in 
-                        <span class="tag"><a href="/posts/tagged/nas/">nas</a></span>,                         <span class="tag"><a href="/posts/tagged/tech/">tech</a></span>,                         <span class="tag"><a href="/posts/tagged/homelab/">homelab</a></span>,                         <span class="tag"><a href="/posts/tagged/zfs/">zfs</a></span>,                         <span class="tag"><a href="/posts/tagged/rack/">rack</a></span>,                         <span class="tag"><a href="/posts/tagged/eng/">eng</a></span>                    </span>
+                        <span class="tag"><a href="/posts/tagged/nas/">nas</a></span>,                         <span class="tag"><a href="/posts/tagged/mini/">mini</a></span>,                         <span class="tag"><a href="/posts/tagged/tech/">tech</a></span>,                         <span class="tag"><a href="/posts/tagged/homelab/">homelab</a></span>,                         <span class="tag"><a href="/posts/tagged/zfs/">zfs</a></span>,                         <span class="tag"><a href="/posts/tagged/eng/">eng</a></span>                    </span>
             </div>
-            <span class="lead"><strong>my rack setup</strong></span>
+            <span class="lead"><strong>the setup of my first (real) mini nas</strong></span>
         </li>
 </ul></div>    </article></div>
 <footer>

@@ -4,12 +4,73 @@
   <subtitle>the dtpy blog</subtitle>
   <link href="https://doubletroublepy.github.io/feed.xml" rel="self"/>
   <link href="https://doubletroublepy.github.io"/>
-  <updated>2026-04-30T00:00:00Z</updated>
+  <updated>2026-08-16T00:00:00Z</updated>
   <id>https://doubletroublepy.github.io/</id>
   <author>
     <name>doubletroublepy</name>
     <email>doubletroublepy@gmail.com</email>
   </author>
+  <entry>
+    <title>rack</title>
+<summary>my rack setup</summary><link href="https://doubletroublepy.github.io/posts/rack/"/>    <updated>2026-08-16T00:00:00Z</updated>
+    <id>https://doubletroublepy.github.io/posts/rack/</id>
+    <content type="html"><![CDATA[<h2 id="premise%3A" tabindex="-1"><em>premise:</em></h2>
+<p>I'm am not English native and i don't have a proof reader so, sorry for any mistakes.
+Also this is a blog where i yap, this IS NOT, I ANY WAY a tutorial IN AM NOT RESPONSIBLE for related incidents.</p>
+<hr />
+<h2 id="story%3A" tabindex="-1"><em>story</em>:</h2>
+<p>I update the nas build some time ago but, i procastinated an update post until now.
+So now the nas has changed 2 times mobo and i have a server case and rack.</p>
+<p>The rack is build like this:</p>
+<pre><code>[      patch panel      ]
+[        switch         ]
+[ Futro S520 | mini NAS ]
+[                       ]
+[          NAS          ]
+[                       ]
+</code></pre>
+<h2 id="panel-panel" tabindex="-1">panel panel</h2>
+<p>Standard patch panel, nothing to see here</p>
+<h2 id="switch" tabindex="-1">switch</h2>
+<p>A cheap mercusys switch (MS116GS) which will be substituted shortly by the Tenda
+TEG5312F managed switch.</p>
+<h2 id="futro-s520" tabindex="-1">Futro S520</h2>
+<p>A cheap mini pc, not very powerfull, but it can be a work as a mini router, given
+i had to use <a href="https://openwrt.org/">openwrt</a> and not <a href="https://opnsense.org/">opnsense</a>
+as i wanted. Is running <a href="https://www.proxmox.com/en/">proxmox</a>, on witch i have
+the following machines:</p>
+<ul>
+<li><a href="https://adguard.com/en/adguard-home/overview.html">adguard</a></li>
+<li><a href="https://www.home-assistant.io/">haos</a> (smart home os)</li>
+<li><a href="https://openwrt.org/">openwrt</a></li>
+</ul>
+<h3 id="openwrt" tabindex="-1"><a href="https://openwrt.org/">openwrt</a></h3>
+<p>The S520 as only 1 ethernet port so i must use a router-on-a-stick configuration:
+I have two virtual interfaces with different vlans and with a managed switch i route
+the wan traffic on one interface and the lan on the other, is not optimal, but it works.</p>
+<h2 id="mini-nas" tabindex="-1"><a href="https://doubletroublepy.github.io/posts/mini_nas/">mini NAS</a></h2>
+<p>Updates:</p>
+<ul>
+<li>gigabit usb rj45 dongle</li>
+</ul>
+<h2 id="nas" tabindex="-1"><a href="https://doubletroublepy.github.io/posts/nas/">NAS</a></h2>
+<p>I finally changed the case with a proper rack one, and added a caddy tray.
+Luck wants that my grandfather, witch is a hobbyist photographer was retiring two
+8TB hdds. He gifted me this hdds, so now i have the same configuration but with
+16TB raw and 8TB usable. As right now yesterday a power outage corrupted one of the
+drives, but luckily only data was damaged not the drive itself. I'm currently in the
+process of resilvering the drive, 12h of agony.</p>
+<hr />
+<h1>The rack</h1>
+<p>The rack is not a good one, i bought a package of rackstuds but the rack holes are
+under dimensioned, which is fine for cagenuts but not for rack studs.
+Is not a big problem as is was cheap 50 euros and i have another one, 90 euros.
+I'm not using the other one as is currently in another city where i plan to return.
+I will probably swap this for a minirack for my mother and use the better one for
+myself.</p>
+]]></content>
+<media:content url="https://doubletroublepy.github.io/img/posts/rack/rack.jpg" type="image/jpeg" expression="full"></media:content>            
+  </entry>
   <entry>
     <title>nas</title>
 <summary>the setup of my main nas</summary><link href="https://doubletroublepy.github.io/posts/nas/"/>    <updated>2026-04-30T00:00:00Z</updated>
@@ -22,7 +83,7 @@ Also this is a blog where i yap, this IS NOT, I ANY WAY a tutorial IN AM NOT RES
 <p>I started whit a 4TB HDD in my main pc, even before the nas i build in the previous
 post, i decided after building the mini nas, that i wanted it bigger and dedicated.
 Also the 4TB was filling up, and i cannot guarantee the uptime on my personal pc,
-also, i have arch on my machine but i believe that the server for servers is Nix.
+also, i have arch on my machine but i believe that the OS for servers is Nix.
 I wanted to buy another pc but i don't have money, so i decided to not have a pc
 anymore and only a laptop.
 I changed the case in a smaller one that fits in my rack.</p>
