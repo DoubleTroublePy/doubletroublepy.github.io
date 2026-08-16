@@ -23,7 +23,7 @@ Also this is a blog where i yap, this IS NOT, I ANY WAY a tutorial IN AM NOT RES
 I started whit a 4TB HDD in my main pc, even before the nas i build in the previous
 post, i decided after building the mini nas, that i wanted it bigger and dedicated.
 Also the 4TB was filling up, and i cannot guarantee the uptime on my personal pc,
-also, i have arch on my machine but i believe that the server for servers is Nix.
+also, i have arch on my machine but i believe that the OS for servers is Nix.
 I wanted to buy another pc but i don't have money, so i decided to not have a pc
 anymore and only a laptop.
 I changed the case in a smaller one that fits in my rack. 
